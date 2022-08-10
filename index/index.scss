@@ -119,11 +119,16 @@ body{
     padding: 20px;
 }
 .i4 a{
-    font-family: $font3;
-    font-size: 40px;
-    letter-spacing: 20px;
-    color: $color2;
     text-decoration: none;
+    font-size: 80px;
+    letter-spacing: 20px;
+    color: $color3;
+    text-decoration: none;
+
+}
+.i4:hover{
+    height: 50px;
+    color:$color3;
 
 }
 
