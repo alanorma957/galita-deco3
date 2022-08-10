@@ -20,4 +20,114 @@ body {
   color: white;
 }
 
+.container {
+  font-family: "Slackey", cursive;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+}
+
+.nav-link {
+  font-family: "Slackey", cursive;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  letter-spacing: 1px;
+  transition: 0.7s;
+  margin-left: 20px;
+}
+
+.nav-link:hover {
+  background-color: blue;
+  background-size: cover;
+  padding: 20px;
+  border: 5px solid white;
+  border-radius: 20PX;
+  height: auto;
+}
+
+.t2 {
+  font-family: "Londrina Shadow", cursive;
+  font-size: 50px;
+  text-shadow: 2px 2px 5px black;
+  padding: 10px;
+  background-color: blue;
+  width: auto;
+  height: auto;
+  border: 5px solid white;
+  border-radius: 10px;
+}
+
+.P1 {
+  font-family: "Bangers", cursive;
+  font-size: 35px;
+  text-align: center;
+  padding: 20px;
+  color: white;
+  text-shadow: 2px 5px 5px black;
+}
+
+.t4 {
+  font-family: "Londrina Shadow", cursive;
+  font-size: 50px;
+  text-shadow: 2px 2px 5px black;
+  padding: 10px;
+  background-color: blue;
+  width: auto;
+  height: auto;
+  border: 5px solid white;
+  border-radius: 10px;
+}
+
+.t5 a {
+  text-decoration: none;
+  font-size: 60px;
+  transition: 0.7s;
+  color: white;
+}
+
+.t5 a:hover {
+  color: blue;
+  font-size: 60px;
+}
+
+.i1 {
+  width: 280px;
+  height: 180px;
+}
+
+.i2 {
+  width: 280px;
+  height: 150px;
+}
+
+.i3 {
+  font-family: "Londrina Shadow", cursive;
+  font-size: 40px;
+}
+
+.i4 {
+  font-family: "Londrina Shadow", cursive;
+  font-size: 40px;
+  letter-spacing: 20px;
+}
+
+.t4 a i {
+  text-decoration: none;
+  color: white;
+}
+
+@media only screen and (min-width: 325px) and (max-width: 1920px) {
+  .i1 {
+    width: 700px;
+    height: 350px;
+  }
+  .i2 {
+    width: 500px;
+    height: 250px;
+  }
+}
+
 /*# sourceMappingURL=estilos.css.map */

@@ -35,3 +35,108 @@ body{
     letter-spacing: 30px;
     color: $color3;
 }
+
+@mixin tex {
+    font-family: $font1;
+    text-align: center;
+    color: $color3;
+    font-size: 20px;
+    padding: 20px
+}
+.container{
+    @include tex;
+}
+.nav-link{
+    @include tex;
+    letter-spacing: 1px;
+    transition: 0.7s;
+    margin-left: 20px;
+
+}
+.nav-link:hover{
+    background-color: blue;
+    background-size: cover;
+    padding: 20px;
+    border: 5px solid $color3;
+    border-radius: 20PX;
+    height: auto;
+
+}
+.t2{
+    font-family: $font3;
+    font-size: 50px;
+    text-shadow: 2px 2px 5px $color2;
+    padding: 10px;
+    background-color: blue;
+    width: auto;
+    height: auto;
+    border: 5px solid $color3;
+    border-radius: 10px;
+}
+.P1{
+    font-family: $font4;
+    font-size: 35px;
+    text-align: center;
+    padding: 20px;
+    color: $color3;
+    text-shadow: 2px 5px 5px $color2;
+}
+.t4{
+    font-family: $font3;
+    font-size: 50px;
+    text-shadow: 2px 2px 5px $color2;
+    padding: 10px;
+    background-color: blue;
+    width: auto;
+    height: auto;
+    border: 5px solid $color3;
+    border-radius: 10px;
+}
+.t5 a{
+    text-decoration: none;
+    font-size: 60px;
+    transition: 0.7s;
+    color: $color3;
+}
+.t5 a:hover{
+    color: blue;
+    font-size: 60px;
+}
+.i1{
+    width: 280px;
+    height: 180px;
+}
+.i2{
+    width: 280px;
+    height: 150px;
+}
+.i3 {
+    font-family: $font3;
+    font-size: 40px;
+}
+.i4 {
+    font-family: $font3;
+    font-size: 40px;
+    letter-spacing: 20px;
+}
+.t4 a i{
+    text-decoration: none;
+    color:white
+}
+
+@media only screen and (min-width:325px) and (max-width:1920px) {
+
+    .i1{
+        width: 700px;
+        height: 350px;
+    }
+    .i2{
+        width: 500px;
+        height: 250px;
+    }
+
+
+
+
+
+}
