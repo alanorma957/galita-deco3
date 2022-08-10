@@ -62,17 +62,7 @@ body{
     height: auto;
 
 }
-.t2{
-    font-family: $font3;
-    font-size: 50px;
-    text-shadow: 2px 2px 5px $color2;
-    padding: 10px;
-    background-color: blue;
-    width: auto;
-    height: auto;
-    border: 5px solid $color3;
-    border-radius: 10px;
-}
+
 .P1{
     font-family: $font4;
     font-size: 35px;
@@ -92,6 +82,16 @@ body{
     border: 5px solid $color3;
     border-radius: 10px;
 }
+.t4:hover{
+    height: 100px;
+    padding: 20px;
+    background-color: $color2;
+    border: 5px solid $color3;
+    font-family: $font1;
+    color: $color3;
+    font-size: 40px;
+}
+
 .t5 a{
     text-decoration: none;
     font-size: 60px;
@@ -114,14 +114,17 @@ body{
     font-family: $font3;
     font-size: 40px;
 }
-.i4 {
+.jumbotron2{
+    background-color: $color6;
+    padding: 20px;
+}
+.i4 a{
     font-family: $font3;
     font-size: 40px;
     letter-spacing: 20px;
-}
-.t4 a i{
+    color: $color2;
     text-decoration: none;
-    color:white
+
 }
 
 @media only screen and (min-width:325px) and (max-width:1920px) {
