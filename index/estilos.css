@@ -7,6 +7,16 @@
   margin: 0;
 }
 
+.H1 {
+  font-family: "Slackey", cursive;
+  font-size: 50px;
+  text-shadow: 5PX 5PX 5PX white;
+  color: yellow;
+  padding: 20px;
+  text-align: center;
+  margin: 10px;
+}
+
 body {
   background-color: black;
   width: auto;
@@ -15,7 +25,7 @@ body {
 
 .t1 {
   font-family: "Londrina Shadow", cursive;
-  font-size: 50px;
+  font-size: 60px;
   letter-spacing: 30px;
   color: white;
 }
@@ -37,17 +47,21 @@ body {
   letter-spacing: 1px;
   transition: 0.7s;
   margin-left: 20px;
+  height: 100PX;
 }
-
-
 
 .P1 {
   font-family: "Bangers", cursive;
-  font-size: 35px;
+  font-size: 20px;
   text-align: center;
   padding: 20px;
   color: white;
   text-shadow: 2px 5px 5px black;
+  margin-left: 50px;
+}
+
+.P1:hover {
+  font-size: 30px;
 }
 
 .t4 {
