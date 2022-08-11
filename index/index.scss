@@ -66,11 +66,14 @@ body{
 
 .P1{
     font-family: $font4;
-    font-size: 35px;
+    font-size: 20px;
     text-align: center;
     padding: 20px;
     color: $color3;
     text-shadow: 2px 5px 5px $color2;
+}
+.P1:hover{
+    font-size: 30px;
 }
 .t4{
     font-family: $font3;

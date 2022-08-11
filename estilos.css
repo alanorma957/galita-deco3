@@ -52,11 +52,15 @@ body {
 
 .P1 {
   font-family: "Bangers", cursive;
-  font-size: 35px;
+  font-size: 20px;
   text-align: center;
   padding: 20px;
   color: white;
   text-shadow: 2px 5px 5px black;
+}
+
+.P1:hover {
+  font-size: 30px;
 }
 
 .t4 {
