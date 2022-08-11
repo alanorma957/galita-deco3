@@ -39,14 +39,7 @@ body {
   margin-left: 20px;
 }
 
-.nav-link:hover {
-  background-color: blue;
-  background-size: cover;
-  padding: 20px;
-  border: 5px solid white;
-  border-radius: 20PX;
-  height: auto;
-}
+
 
 .P1 {
   font-family: "Bangers", cursive;
