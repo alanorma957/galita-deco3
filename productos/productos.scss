@@ -51,7 +51,7 @@ $color6: yellow;
 
 .H1{
     font-family: $font1;
-    font-size: 50px;
+    font-size: 30px;
     text-shadow: 5PX 5PX 5PX $color3;
     color: $color6;
     padding: 20px;
@@ -155,4 +155,15 @@ body{
     border: 5px solid $color1;
     border-radius: 20px;
 
+}
+.card-title{
+    font-family: $font1;
+    font-size: 25px;
+    color: $color2;
+}
+.card-text{
+    font-family: $font1;
+    font-size: 20px;
+    color: $color2;
+    padding: 10px;
 }
