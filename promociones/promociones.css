@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Slackey&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Trade+Winds&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Londrina+Shadow&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bangers&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.navbar {
+  background-image: linear-gradient(to bottom right, black, red);
+}
+
+.H1 {
+  font-family: "Slackey", cursive;
+  font-size: 30px;
+  text-shadow: 5PX 5PX 5PX white;
+  color: black;
+  padding: 20px;
+  text-align: center;
+  margin: 10px;
+}
+
+body {
+  background-color: white;
+  width: auto;
+  height: 100vh;
+  background-image: url(img/145203.jpg) linear-gradient(to bottom left, blue, black);
+}
+
+.t1 {
+  font-family: "Londrina Shadow", cursive;
+  font-size: 60px;
+  letter-spacing: 30px;
+  color: white;
+}
+
+.container {
+  font-family: "Slackey", cursive;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+}
+
+.nav-link {
+  font-family: "Slackey", cursive;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  letter-spacing: 1px;
+  transition: 0.7s;
+  margin-left: 20px;
+  height: 100PX;
+}
+
+.P0 {
+  font-family: "Londrina Shadow", cursive;
+  font-size: 25PX;
+  color: white;
+  text-shadow: 2px 5px 5px black;
+}
+
+.P0:hover {
+  font-size: 30px;
+}
+
+.P1 {
+  font-family: "Bangers", cursive;
+  font-size: 20px;
+  text-align: center;
+  padding: 30px;
+  color: white;
+  text-shadow: 2px 5px 5px black;
+}
+
+.P1:hover {
+  font-size: 30px;
+}
+
+.carousel-inner {
+  width: auto;
+  height: auto;
+}
+
+.t4 {
+  font-family: "Londrina Shadow", cursive;
+  font-size: 50px;
+  text-shadow: 2px 2px 5px black;
+  padding: 10px;
+  background-color: blue;
+  width: auto;
+  height: auto;
+  border: 5px solid white;
+  border-radius: 10px;
+}
+
+.t4:hover {
+  height: 100px;
+  padding: 20px;
+  background-color: black;
+  border: 5px solid white;
+  font-family: "Slackey", cursive;
+  color: white;
+  font-size: 40px;
+}
+
+.jumbotron2 {
+  font-family: "Bangers", cursive;
+  color: white;
+  background-image: linear-gradient(to bottom right, black, red);
+  padding: 20px;
+  font-size: 25px;
+}
+
+.i4 a {
+  text-decoration: none;
+  font-size: 40px;
+  letter-spacing: 20px;
+  color: white;
+  text-decoration: none;
+  transition: 1s;
+}
+
+.i4 a:hover {
+  color: black;
+}
+
+.container1 {
+  padding: 40px;
+  margin: 20px;
+}
+
+.card {
+  margin: 7px;
+  border: 5px solid red;
+  border-radius: 20px;
+}
+
+.card-title {
+  font-family: "Slackey", cursive;
+  font-size: 25px;
+  color: black;
+}
+
+.card-text {
+  font-family: "Slackey", cursive;
+  font-size: 20px;
+  color: black;
+  padding: 10px;
+}
+
+/*# sourceMappingURL=promociones.css.map */
