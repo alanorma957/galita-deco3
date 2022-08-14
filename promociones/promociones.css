@@ -1,17 +1,164 @@
-/* Error: Expected string.
- *     ,
- * 134 |     @import titulo;
- *     |             ^
- *     '
- *   promociones\promociones.scss 134:13  root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Expected string.\a     \2577 \a 134 \2502      @import titulo;\d\a     \2502              ^\a     \2575 \a   promociones\\promociones.scss 134:13  root stylesheet";
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Slackey&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Trade+Winds&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Londrina+Shadow&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bangers&display=swap");
+* {
+  padding: 0;
+  margin: 0;
 }
+
+.navbar {
+  background-image: linear-gradient(to bottom right, black, red);
+}
+
+.H1 {
+  font-family: "Slackey", cursive;
+  font-size: 30px;
+  text-shadow: 5PX 5PX 5PX white;
+  color: black;
+  padding: 20px;
+  text-align: center;
+  margin: 5px;
+}
+
+body {
+  background-size: cover;
+  background-position: center;
+  width: auto;
+  height: auto;
+  background-image: url(/promociones/img/pngwing.com.png);
+}
+
+.t1 {
+  font-family: "Londrina Shadow", cursive;
+  font-size: 60px;
+  letter-spacing: 30px;
+  color: white;
+}
+
+.container {
+  font-family: "Slackey", cursive;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+}
+
+.nav-link {
+  font-family: "Slackey", cursive;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  letter-spacing: 1px;
+  transition: 0.7s;
+  margin-left: 20px;
+  height: 100PX;
+}
+
+.P0 {
+  font-family: "Londrina Shadow", cursive;
+  font-size: 25PX;
+  color: white;
+  text-shadow: 2px 5px 5px black;
+}
+
+.P0:hover {
+  font-size: 30px;
+}
+
+.P1 {
+  font-family: "Bangers", cursive;
+  font-size: 20px;
+  text-align: center;
+  padding: 30px;
+  color: white;
+  text-shadow: 2px 5px 5px black;
+}
+
+.P1:hover {
+  font-size: 30px;
+}
+
+.carousel-inner {
+  width: auto;
+  height: auto;
+  text-align: center;
+}
+
+.jumbotron3 {
+  width: auto;
+  height: auto;
+  background-color: rgba(128, 128, 128, 0.39);
+  margin: 50px;
+  border: 5px solid white;
+  padding: 20px;
+  border-radius: 20px;
+  display: flex;
+}
+
+.nleft {
+  background-image: url(/promociones/img/CUADRO\ CUERINA.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 250px;
+  height: 300px;
+}
+
+.nleft1 {
+  background-image: url(/promociones/img/vinilo.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 250px;
+  height: 300px;
+}
+
+.nleft2 {
+  background-image: url(/promociones/img/cortina\ baño.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 250px;
+  height: 300px;
+}
+
+.nright {
+  width: auto;
+  height: auto;
+  padding: 30px;
+}
+
+.display {
+  font-family: "Londrina Shadow", cursive;
+  color: white;
+  padding: 20px;
+  width: auto;
+  height: auto;
+}
+
+.lead {
+  font-family: "Slackey", cursive;
+}
+
+.jumbotron2 {
+  font-family: "Bangers", cursive;
+  color: white;
+  background-image: linear-gradient(to bottom right, black, red);
+  padding: 20px;
+  font-size: 25px;
+}
+
+.i4 a {
+  text-decoration: none;
+  font-size: 40px;
+  letter-spacing: 20px;
+  color: white;
+  text-decoration: none;
+  transition: 1s;
+}
+
+.i4 a:hover {
+  color: black;
+}
+
+/*# sourceMappingURL=promociones.css.map */
