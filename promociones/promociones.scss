@@ -37,13 +37,15 @@ $color6: yellow;
     color: $color2;
     padding: 20px;
     text-align: center;
-    margin: 10px;
+    margin: 5px;
 }
 body{
-    background-color: $color3;
+    background-size:auto;
+    background-position: center;
     width: auto;
-    height: 100vh;
-    background-image: url(img/145203.jpg) linear-gradient(to bottom left, $color4 , $color2);
+    height: auto;
+    background-image: url(img/145203.jpg);
+
 }
 .t1{
     font-family: $font3;
@@ -98,6 +100,41 @@ body{
     height: auto;
 
 }
+.jumbotron3{
+    width: auto;
+    height: auto;
+    background-color: rgba(128, 128, 128, 0.39);
+    margin: 10px;
+    border: 5px solid $color3;
+    padding: 50px;
+    border-radius: 20px;
+    display: flex;
+}
+.nleft{
+    background-image: url(/promociones/img/CUADRO\ CUERINA.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+    height: auto;
+}
+.nright{
+    width: 50%;
+    height:auto;
+    padding: 20px;
+}
+@mixin titulo {
+    font-family: $font3;
+    text-align: center;
+    color: $color3;
+    background-color: rgba(128, 128, 128, 0.445);
+    border: 5px solid $color2;
+    padding: 20px;
+}
+.display-1{
+    @import titulo;
+}
+
+
 .t4{
     font-family: $font3;
     font-size: 50px;
