@@ -10,6 +10,7 @@
 
 .navbar {
   background-image: linear-gradient(to bottom right, black, red);
+  text-align: center;
 }
 
 .H1 {
@@ -62,6 +63,8 @@ body {
   font-size: 25PX;
   color: white;
   text-shadow: 2px 5px 5px black;
+  text-align: center;
+  margin-left: 100px;
 }
 
 .P0:hover {
@@ -70,9 +73,9 @@ body {
 
 .P1 {
   font-family: "Bangers", cursive;
-  font-size: 20px;
+  font-size: 30px;
   text-align: center;
-  padding: 30px;
+  padding: 20px;
   color: white;
   text-shadow: 2px 5px 5px black;
 }
@@ -129,15 +132,17 @@ body {
 }
 
 .display {
-  font-family: "Londrina Shadow", cursive;
-  color: white;
+  font-family: "Bangers", cursive;
+  color: black;
   padding: 20px;
   width: auto;
   height: auto;
+  text-shadow: 2px 3px 3px white;
 }
 
 .lead {
   font-family: "Slackey", cursive;
+  color: black;
 }
 
 .jumbotron2 {

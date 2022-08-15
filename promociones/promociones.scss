@@ -29,6 +29,7 @@ $color6: yellow;
 
 .navbar{
     background-image: linear-gradient(to bottom right, $color2 , $color1);
+    text-align: center;
 }
 .H1{
     font-family: $font1;
@@ -77,6 +78,8 @@ body{
     font-size: 25PX;
     color: $color3;
     text-shadow: 2px 5px 5px $color2;
+    text-align: center;
+    margin-left: 100px;
 
 }
 .P0:hover{
@@ -85,9 +88,9 @@ body{
 
 .P1{
     font-family: $font4;
-    font-size: 20px;
+    font-size: 30px;
     text-align: center;
-    padding: 30px;
+    padding: 20px;
     color: $color3;
     text-shadow: 2px 5px 5px $color2;
 }
@@ -140,11 +143,12 @@ body{
 }
 
 @mixin titulo {
-    font-family: $font3;
-    color: $color3;
+    font-family: $font4;
+    color: $color2;
     padding: 20px;
     width: auto;
-    height: auto
+    height: auto;
+    text-shadow: 2px 3px 3px $color3;
 }
 .display{
     @include titulo;
@@ -152,6 +156,7 @@ body{
 }
 .lead{
     font-family: $font1;
+    color: $color2;
 }
 
 .jumbotron2{
