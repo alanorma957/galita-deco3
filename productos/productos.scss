@@ -34,18 +34,18 @@ $color6: yellow;
 .H1{
     font-family: $font1;
     font-size: 30px;
-    text-shadow: 5PX 5PX 5PX $color3;
-    color: $color2;
+    color: $color3;
     padding: 20px;
     text-align: center;
     margin: 5px;
 }
 body{
+    background-color: $color2;
     background-size:cover;
     background-position: center;
     width: auto;
     height: auto;
-    background-image: url(/productos/img2/pngwing.com.png)
+    background-image: url(/productos/img2/pngwing.com\(1\).png)
 }
 .t1{
     font-family: $font3;
@@ -160,7 +160,7 @@ body{
 }
 .card{
     margin: 7px;
-    border: 8px solid $color2;
+    border: 8px solid $color3;
     background-color: rgba(128, 128, 128, 0.295);
     background-size: cover;
     background-position: center;

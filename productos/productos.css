@@ -15,19 +15,19 @@
 .H1 {
   font-family: "Slackey", cursive;
   font-size: 30px;
-  text-shadow: 5PX 5PX 5PX white;
-  color: black;
+  color: white;
   padding: 20px;
   text-align: center;
   margin: 5px;
 }
 
 body {
+  background-color: black;
   background-size: cover;
   background-position: center;
   width: auto;
   height: auto;
-  background-image: url(/productos/img2/pngwing.com.png);
+  background-image: url(/productos/img2/pngwing.com\(1\).png);
 }
 
 .t1 {
@@ -142,7 +142,7 @@ body {
 
 .card {
   margin: 7px;
-  border: 8px solid black;
+  border: 8px solid white;
   background-color: rgba(128, 128, 128, 0.295);
   background-size: cover;
   background-position: center;
