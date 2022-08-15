@@ -1,27 +1,4 @@
-*{
-    padding: 0;
-    margin: 0;
 
-}
-@import url('https://fonts.googleapis.com/css2?family=Slackey&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Trade+Winds&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Londrina+Shadow&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
-$ancho:720px;
-$alto:100px;
-$var1:150%;
-$var2:50%;
-$xs:16px;
-$font3: 'Londrina Shadow', cursive;
-$font2: 'Trade Winds', cursive;
-$font1:'Slackey', cursive;
-$font4: 'Bangers', cursive;
-$color1: red;
-$color2: black;
-$color3: white;
-$color4: cyan;
-$color5: magenta;
-$color6: yellow;
 
 
 *{
@@ -45,23 +22,30 @@ $font4: 'Bangers', cursive;
 $color1: red;
 $color2: black;
 $color3: white;
-$color4: cyan;
-$color5: magenta;
+$color4: blue;
+$color5: orange;
 $color6: yellow;
 
+
+.navbar{
+    background-image: linear-gradient(to bottom right, $color2 , $color1);
+    text-align: center;
+}
 .H1{
     font-family: $font1;
     font-size: 30px;
     text-shadow: 5PX 5PX 5PX $color3;
-    color: $color6;
+    color: $color2;
     padding: 20px;
     text-align: center;
-    margin: 10px;
+    margin: 5px;
 }
 body{
-    background-color: $color2;
+    background-size:cover;
+    background-position: center;
     width: auto;
     height: auto;
+    background-image: url(/productos/img2/pngwing.com.png)
 }
 .t1{
     font-family: $font3;
@@ -86,10 +70,17 @@ body{
     transition: 0.7s;
     margin-left: 20px;
     height:100PX;
+
+
 }
 .P0{
     font-family: $font3;
-    font-size: 20PX;
+    font-size: 25PX;
+    color: $color3;
+    text-shadow: 2px 5px 5px $color2;
+    text-align: center;
+    margin-left: 100px;
+
 }
 .P0:hover{
     font-size: 30px ;
@@ -97,40 +88,58 @@ body{
 
 .P1{
     font-family: $font4;
-    font-size: 20px;
+    font-size: 30px;
     text-align: center;
-    padding: 30px;
+    padding: 20px;
     color: $color3;
     text-shadow: 2px 5px 5px $color2;
 }
 .P1:hover{
-    font-size: 30px;
-}
-.t4{
-    font-family: $font3;
-    font-size: 50px;
-    text-shadow: 2px 2px 5px $color2;
-    padding: 10px;
-    background-color: blue;
-    width: auto;
-    height: auto;
-    border: 5px solid $color3;
-    border-radius: 10px;
-}
-.t4:hover{
-    height: 100px;
-    padding: 20px;
-    background-color: $color2;
-    border: 5px solid $color3;
-    font-family: $font1;
-    color: $color3;
     font-size: 40px;
 }
+.carousel-inner{
+    width:auto;
+    height: auto;
+    text-align: center;
 
+}
+.jumbotron3{
+    width: auto;
+    height: auto;
+    background-color: rgba(128, 128, 128, 0.39);
+    margin: 50px;
+    border: 5px solid $color3;
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+
+
+}
+
+
+@mixin titulo {
+    font-family: $font4;
+    color: $color2;
+    padding: 20px;
+    width: auto;
+    height: auto;
+    text-shadow: 2px 3px 3px $color3;
+}
+.display{
+    @include titulo;
+
+}
+.lead{
+    font-family: $font1;
+    color: $color2;
+}
 
 .jumbotron2{
-    background-color: $color6;
+    font-family: $font4;
+    color: $color3;
+    background-image: linear-gradient(to bottom right, $color2 , $color1);
     padding: 20px;
+    font-size: 25px;
 }
 .i4 a{
     text-decoration: none;
@@ -143,7 +152,6 @@ body{
 }
 .i4 a:hover{
     color:$color2;
-
 }
 
 .container1{
@@ -152,8 +160,10 @@ body{
 }
 .card{
     margin: 7px;
-    border: 5px solid $color1;
-    border-radius: 20px;
+    border: 8px solid $color2;
+    background-color: rgba(128, 128, 128, 0.295);
+    background-size: cover;
+    background-position: center;
 
 }
 .card-title{
