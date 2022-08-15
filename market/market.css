@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Slackey&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Trade+Winds&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Londrina+Shadow&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bangers&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.navbar {
+  background-image: linear-gradient(to bottom right, black, red);
+  text-align: center;
+}
+
+.H1 {
+  font-family: "Slackey", cursive;
+  font-size: 30px;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  margin: 5px;
+}
+
+body {
+  background-color: black;
+  background-size: cover;
+  background-position: center;
+  width: auto;
+  height: auto;
+  background-image: url(/market/img/pngwing.com\(1\).png);
+}
+
+.t1 {
+  font-family: "Londrina Shadow", cursive;
+  font-size: 60px;
+  letter-spacing: 30px;
+  color: white;
+}
+
+.container {
+  font-family: "Slackey", cursive;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+}
+
+.nav-link {
+  font-family: "Slackey", cursive;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  letter-spacing: 1px;
+  transition: 0.7s;
+  margin-left: 20px;
+  height: 100PX;
+}
+
+.P0 {
+  font-family: "Londrina Shadow", cursive;
+  font-size: 25PX;
+  color: white;
+  text-shadow: 2px 5px 5px black;
+  text-align: center;
+  margin-left: 100px;
+}
+
+.P0:hover {
+  font-size: 30px;
+}
+
+.P1 {
+  font-family: "Bangers", cursive;
+  font-size: 30px;
+  text-align: center;
+  padding: 20px;
+  color: white;
+  text-shadow: 2px 5px 5px black;
+}
+
+.P1:hover {
+  font-size: 40px;
+}
+
+.jumbotron2 {
+  font-family: "Bangers", cursive;
+  color: white;
+  background-image: linear-gradient(to bottom right, black, red);
+  padding: 20px;
+  font-size: 25px;
+}
+
+.i4 a {
+  text-decoration: none;
+  font-size: 40px;
+  letter-spacing: 20px;
+  color: white;
+  text-decoration: none;
+  transition: 1s;
+}
+
+.i4 a:hover {
+  color: black;
+}
+
+/*# sourceMappingURL=market.css.map */
