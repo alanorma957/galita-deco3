@@ -25,6 +25,10 @@ $color4: cyan;
 $color5: magenta;
 $color6: yellow;
 
+.navbar{
+    background-image: linear-gradient(to bottom right, $color2 , $color1);
+    text-align: center;
+}
 .H1{
     font-family: $font1;
     font-size: 50px;
@@ -35,21 +39,23 @@ $color6: yellow;
     margin: 10px;
 }
 body{
-    background-color: $color2;
+    background-size:cover;
+    background-position: center;
     width: auto;
     height: auto;
+    background-image: url(/index/IMG/pngwing.com\(1\).png)
 }
 .t1{
     font-family: $font3;
     font-size: 60px;
     letter-spacing: 30px;
-    color: $color3;
+    color: $color2;
 }
 
 @mixin tex {
     font-family: $font1;
     text-align: center;
-    color: $color3;
+    color: $color2;
     font-size: 20px;
     padding: 20px
 }
@@ -60,7 +66,7 @@ body{
     @include tex;
     letter-spacing: 1px;
     transition: 0.7s;
-    margin-left: 20px;
+    margin-left: 100px;
     height:100PX;
 }
 
@@ -84,7 +90,7 @@ body{
     background-color: blue;
     width: auto;
     height: auto;
-    border: 5px solid $color3;
+    border: 5px solid $color2;
     border-radius: 10px;
 }
 .t4:hover{
@@ -101,7 +107,7 @@ body{
     text-decoration: none;
     font-size: 60px;
     transition: 0.7s;
-    color: $color3;
+    color: $color2;
 }
 .t5 a:hover{
     color: blue;
@@ -120,8 +126,11 @@ body{
     font-size: 40px;
 }
 .jumbotron2{
-    background-color: $color6;
+    font-family: $font4;
+    color: $color3;
+    background-image: linear-gradient(to bottom right, $color2 , $color1);
     padding: 20px;
+    font-size: 25px;
 }
 .i4 a{
     text-decoration: none;
