@@ -23,6 +23,7 @@
 }
 
 body {
+  background-color: black;
   background-size: cover;
   background-position: center;
   width: auto;
@@ -40,7 +41,7 @@ body {
 .container {
   font-family: "Slackey", cursive;
   text-align: center;
-  color: black;
+  color: white;
   font-size: 20px;
   padding: 20px;
 }
@@ -48,7 +49,7 @@ body {
 .nav-link {
   font-family: "Slackey", cursive;
   text-align: center;
-  color: black;
+  color: white;
   font-size: 20px;
   padding: 20px;
   letter-spacing: 1px;
@@ -74,12 +75,12 @@ body {
 .t4 {
   font-family: "Londrina Shadow", cursive;
   font-size: 50px;
-  text-shadow: 2px 2px 5px black;
+  text-shadow: 2px 2px 5px white;
   padding: 10px;
   background-color: blue;
   width: auto;
   height: auto;
-  border: 5px solid black;
+  border: 5px solid white;
   border-radius: 10px;
 }
 
@@ -97,7 +98,7 @@ body {
   text-decoration: none;
   font-size: 60px;
   transition: 0.7s;
-  color: black;
+  color: white;
 }
 
 .t5 a:hover {

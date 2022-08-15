@@ -39,6 +39,7 @@ $color6: yellow;
     margin: 10px;
 }
 body{
+    background-color: $color2;
     background-size:cover;
     background-position: center;
     width: auto;
@@ -55,7 +56,7 @@ body{
 @mixin tex {
     font-family: $font1;
     text-align: center;
-    color: $color2;
+    color: $color3;
     font-size: 20px;
     padding: 20px
 }
@@ -85,12 +86,12 @@ body{
 .t4{
     font-family: $font3;
     font-size: 50px;
-    text-shadow: 2px 2px 5px $color2;
+    text-shadow: 2px 2px 5px $color3;
     padding: 10px;
     background-color: blue;
     width: auto;
     height: auto;
-    border: 5px solid $color2;
+    border: 5px solid $color3;
     border-radius: 10px;
 }
 .t4:hover{
@@ -107,7 +108,7 @@ body{
     text-decoration: none;
     font-size: 60px;
     transition: 0.7s;
-    color: $color2;
+    color: $color3;
 }
 .t5 a:hover{
     color: blue;
