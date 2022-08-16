@@ -27,7 +27,7 @@ body {
   background-position: center;
   width: auto;
   height: auto;
-  background-image: url(/promociones/img/pngwing.com.png);
+  background-image: url(/contacto/IMG/pngwing.com\(1\).png);
 }
 
 .t1 {
@@ -82,6 +82,27 @@ body {
 
 .P1:hover {
   font-size: 30px;
+}
+
+.jumbotron2 {
+  font-family: "Bangers", cursive;
+  color: white;
+  background-image: linear-gradient(to bottom right, black, red);
+  padding: 20px;
+  font-size: 25px;
+}
+
+.i4 a {
+  text-decoration: none;
+  font-size: 40px;
+  letter-spacing: 20px;
+  color: white;
+  text-decoration: none;
+  transition: 1s;
+}
+
+.i4 a:hover {
+  color: black;
 }
 
 /*# sourceMappingURL=contacto.css.map */
