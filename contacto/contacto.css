@@ -10,6 +10,7 @@
 .navbar {
   background-image: linear-gradient(to bottom right, black, red);
   text-align: center;
+  height: auto;
 }
 
 .H1 {
@@ -27,7 +28,7 @@ body {
   background-position: center;
   width: auto;
   height: auto;
-  background-image: url(/contacto/IMG/pngwing.com\(1\).png);
+  background-image: url(/contacto/IMG/6069078.jpg);
 }
 
 .t1 {
@@ -35,14 +36,6 @@ body {
   font-size: 60px;
   letter-spacing: 30px;
   color: white;
-}
-
-.container {
-  font-family: "Slackey", cursive;
-  text-align: center;
-  color: white;
-  font-size: 20px;
-  padding: 20px;
 }
 
 .nav-link {
@@ -53,8 +46,7 @@ body {
   padding: 20px;
   letter-spacing: 1px;
   transition: 0.7s;
-  margin-left: 20px;
-  height: 100PX;
+  height: 100px;
 }
 
 .P0 {
@@ -103,6 +95,13 @@ body {
 
 .i4 a:hover {
   color: black;
+}
+
+.container {
+  font-family: "Bangers", cursive;
+  font-size: 25px;
+  color: white;
+  padding: 20px;
 }
 
 /*# sourceMappingURL=contacto.css.map */
