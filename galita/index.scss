@@ -130,3 +130,20 @@ body{
     color:$color3;
 
 }
+
+@media only screen and (min-width:325px) and (max-width:1920px) {
+
+    .i1{
+        width: 700px;
+        height: 350px;
+    }
+    .i2{
+        width: 500px;
+        height: 250px;
+    }
+
+
+
+
+
+}
