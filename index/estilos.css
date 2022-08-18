@@ -1,139 +1,17 @@
-@import url("https://fonts.googleapis.com/css2?family=Slackey&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Trade+Winds&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Londrina+Shadow&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Bangers&display=swap");
-* {
-  padding: 0;
-  margin: 0;
-}
+/* Error: expected "{".
+ *    ,
+ * 50 |     font-family: $font3;
+ *    |                        ^
+ *    '
+ *   index\index.scss 50:24  root stylesheet */
 
-.navbar {
-  background-image: linear-gradient(to bottom right, black, red);
-  text-align: center;
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: 'Error: expected "{".\a    \2577 \a 50 \2502      font-family: $font3;\d\a    \2502                         ^\a    \2575 \a   index\\index.scss 50:24  root stylesheet';
 }
-
-.H1 {
-  font-family: "Slackey", cursive;
-  font-size: 50px;
-  text-shadow: 5PX 5PX 5PX white;
-  color: yellow;
-  padding: 20px;
-  text-align: center;
-  margin: 10px;
-}
-
-body {
-  background-size: cover;
-  background-position: center;
-  width: auto;
-  height: auto;
-  background-image: url(/index/IMG/5437842.jpg);
-}
-
-.t1 {
-  font-family: "Londrina Shadow", cursive;
-  font-size: 60px;
-  letter-spacing: 30px;
-  color: black;
-}
-
-.container {
-  font-family: "Slackey", cursive;
-  text-align: center;
-  color: black;
-  font-size: 20px;
-  padding: 20px;
-}
-
-.nav-link {
-  font-family: "Slackey", cursive;
-  text-align: center;
-  color: black;
-  font-size: 20px;
-  padding: 20px;
-  letter-spacing: 1px;
-  transition: 0.7s;
-  margin-left: 100px;
-  height: 100PX;
-}
-
-.P1 {
-  font-family: "Bangers", cursive;
-  font-size: 20px;
-  text-align: center;
-  padding: 20px;
-  color: white;
-  text-shadow: 2px 5px 5px black;
-  margin-left: 50px;
-}
-
-.P1:hover {
-  font-size: 25px;
-}
-
-.t4 {
-  font-family: "Londrina Shadow", cursive;
-  font-size: 40px;
-  padding: 10px;
-}
-
-.t5 a {
-  text-decoration: none;
-  font-size: 60px;
-  transition: 0.7s;
-  color: black;
-}
-
-.t5 a:hover {
-  color: blue;
-  font-size: 60px;
-}
-
-.i1 {
-  width: 280px;
-  height: 180px;
-}
-
-.i2 {
-  width: 280px;
-  height: 150px;
-}
-
-.i3 {
-  font-family: "Londrina Shadow", cursive;
-  font-size: 40px;
-}
-
-.jumbotron2 {
-  font-family: "Bangers", cursive;
-  color: white;
-  background-image: linear-gradient(to bottom right, black, red);
-  padding: 20px;
-  font-size: 25px;
-}
-
-.i4 a {
-  text-decoration: none;
-  font-size: 40px;
-  letter-spacing: 20px;
-  color: white;
-  text-decoration: none;
-  transition: 1s;
-}
-
-.i4 a:hover {
-  color: black;
-}
-
-@media only screen and (min-width: 325px) and (max-width: 1920px) {
-  .i1 {
-    width: 700px;
-    height: 350px;
-  }
-  .i2 {
-    width: 500px;
-    height: 250px;
-  }
-}
-
-/*# sourceMappingURL=estilos.css.map */
