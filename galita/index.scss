@@ -1,0 +1,149 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+
+}
+@import url('https://fonts.googleapis.com/css2?family=Slackey&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Trade+Winds&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Shadow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+$ancho:720px;
+$alto:100px;
+$var1:150%;
+$var2:50%;
+$xs:16px;
+$font3: 'Londrina Shadow', cursive;
+$font2: 'Trade Winds', cursive;
+$font1:'Slackey', cursive;
+$font4: 'Bangers', cursive;
+$color1: red;
+$color2: black;
+$color3: white;
+$color4: cyan;
+$color5: magenta;
+$color6: yellow;
+
+.navbar{
+    background-image: linear-gradient(to bottom right, $color2 , $color1);
+    text-align: center;
+}
+.H1{
+    font-family: $font1;
+    font-size: 50px;
+    text-shadow: 5PX 5PX 5PX $color3;
+    color: $color6;
+    padding: 20px;
+    text-align: center;
+    margin: 10px;
+}
+body{
+
+    background-size:cover;
+    background-position: center;
+    width: auto;
+    height: auto;
+    background-image: linear-gradient(to bottom left, orange , red);
+}
+.t1{
+    font-family:$font3;
+    font-size: 60px;
+    letter-spacing: 30px;
+    color: $color3;
+}
+
+@mixin tex {
+    font-family: $font1;
+    text-align: center;
+    color: $color3;
+    font-size: 20px;
+    padding: 20px
+}
+.container{
+    @include tex;
+}
+.nav-link{
+    @include tex;
+    letter-spacing: 1px;
+    transition: 0.7s;
+    margin-left: 100px;
+    height:100PX;
+}
+
+.P1{
+    font-family: $font4;
+    font-size: 20px;
+    text-align: center;
+    padding: 20px;
+    color: $color3;
+    text-shadow: 2px 5px 5px $color2;
+    margin-left: 50px;
+}
+.P1:hover{
+    font-size: 25px;
+}
+.t4{
+    font-family: $font3;
+    font-size: 40px;
+    padding: 10px;
+    
+}
+
+
+.t5 a{
+    text-decoration: none;
+    font-size: 60px;
+    transition: 0.7s;
+    color: $color3;
+}
+
+.i1{
+    width: 280px;
+    height: 180px;
+}
+.i2{
+    width: 280px;
+    height: 150px;
+}
+.i3 {
+    font-family: $font3;
+    font-size: 40px;
+}
+.jumbotron2{
+    font-family: $font4;
+    color: $color3;
+    background-image: linear-gradient(to bottom right, $color2 , $color1);
+    padding: 20px;
+    font-size: 25px;
+}
+.i4 a{
+    text-decoration: none;
+    font-size: 40px;
+    letter-spacing: 20px;
+    color: $color3;
+    text-decoration: none;
+    transition: 1s;
+
+}
+.i4 a:hover{
+    color:$color3;
+
+}
+
+@media only screen and (min-width:325px) and (max-width:1920px) {
+
+    .i1{
+        width: 700px;
+        height: 350px;
+    }
+    .i2{
+        width: 500px;
+        height: 250px;
+    }
+
+
+
+
+
+}
