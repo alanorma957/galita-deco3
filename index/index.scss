@@ -44,19 +44,19 @@ body{
     background-position: center;
     width: auto;
     height: auto;
-    background-image: url(/index/IMG/5437842.jpg)
+    background-image: linear-gradient(to bottom left, orange , red);
 }
-.t1{ñ
-    font-family: $font3;
+.t1{
+    font-family:$font3;
     font-size: 60px;
     letter-spacing: 30px;
-    color: $color2;
+    color: $color3;
 }
 
 @mixin tex {
     font-family: $font1;
     text-align: center;
-    color: $color2;
+    color: $color3;
     font-size: 20px;
     padding: 20px
 }
@@ -95,12 +95,9 @@ body{
     text-decoration: none;
     font-size: 60px;
     transition: 0.7s;
-    color: $color2;
+    color: $color3;
 }
-.t5 a:hover{
-    color: blue;
-    font-size: 60px;
-}
+
 .i1{
     width: 280px;
     height: 180px;
@@ -130,7 +127,7 @@ body{
 
 }
 .i4 a:hover{
-    color:$color2;
+    color:$color3;
 
 }
 
